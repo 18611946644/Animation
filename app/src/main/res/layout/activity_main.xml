@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.animation.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_ob"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#000"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btn_bianzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="改变值"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_jianbian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="渐变"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_pingyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="平移"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_xuanzhuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旋转"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_suofang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="缩放"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_vpingyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VALUEANIMATOR平移"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Ozuhedonghua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="OBJECTANIMATOR组合动画" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="end"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="cancle" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
